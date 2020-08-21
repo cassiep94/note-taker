@@ -129,7 +129,7 @@ const renderNoteList = (notes) => {
   };
 
   if (notes.length === 0) {
-    noteListItems.push(create$li("No saved Notes", false));
+    noteListItems.push(create$li("No Notes Available", false));
   }
 
   notes.forEach((note) => {
